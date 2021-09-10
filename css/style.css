@@ -186,3 +186,28 @@ button:hover {
     background-color: #23272A;
     color: white;
 }
+
+#site_footer>.container {
+    border-bottom: 1px solid #8EA1E1;
+    padding: 1.5rem 0;
+}
+
+#site_footer .col:first-child {
+    width: 33.32%;
+}
+
+#site_footer .col {
+    float: left;
+    width: 16.66%;
+    padding-top: 100px;
+}
+
+#site_footer ul>li {
+    list-style: none;
+    line-height: 1.8rem;
+}
+
+#site_footer ul>li:first-child {
+    color: #8EA1E1;
+    font-size: 1.1rem;
+}
