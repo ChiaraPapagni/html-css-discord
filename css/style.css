@@ -122,7 +122,7 @@ button:hover {
     padding-right: .5rem;
 }
 
-/* prima riga */
+/* sezioni */
 .row {
     padding: 130px 0 200px 0;
 }
@@ -135,21 +135,34 @@ button:hover {
 .row .col_text {
     width: 29%;
     float: left;
-    /* padding: 1rem; */
 }
 
-.col_text>h2 {
+.row h2 {
     font-size: 3rem;
     line-height: 3.5rem;
     padding: 2rem 0;
 }
 
-.col_text>p {
+.row p {
     font-size: 1.3rem;
     line-height: 1.7rem;
 }
 
 .item2 {
-    margin-left: auto;
     display: block;
+    margin-left: auto;
+}
+
+/* ultima sezione */
+.last {
+    text-align: center;
+}
+
+.last>p {
+    width: 85%;
+    margin: auto;
+}
+
+.last>img {
+    width: 100%;
 }
