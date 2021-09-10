@@ -180,3 +180,9 @@ button:hover {
     background-color: #8EA1E1;
     color: white;
 }
+
+/* footer */
+#site_footer {
+    background-color: #23272A;
+    color: white;
+}
