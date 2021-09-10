@@ -124,7 +124,7 @@ button:hover {
 
 /* prima riga */
 .row {
-    padding: 130px 0;
+    padding: 130px 0 200px 0;
 }
 
 .row .col_image {
