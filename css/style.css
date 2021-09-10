@@ -3,3 +3,70 @@
     margin: 0;
     padding: 0;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: cornflowerblue;
+    font-family: 'Helvetica',
+        sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 1.7rem auto;
+}
+
+/* header e nav */
+header {
+    position: relative;
+    text-align: center;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.navbar>img {
+    float: left;
+}
+
+.navbar>ul {
+    float: left;
+    width: 70%;
+}
+
+.navbar>ul>li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.navbar>ul a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    font-size: 0.98rem;
+    font-weight: bold;
+}
+
+.navbar>button {
+    float: right;
+    background-color: white;
+    border: none;
+    border-radius: 5rem;
+    padding: 0.6rem 0.9rem;
+    color: #23272A;
+    font-weight: bold;
+}
+
+.navbar>button:hover {
+    cursor: pointer;
+}
