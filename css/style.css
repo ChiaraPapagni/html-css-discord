@@ -11,13 +11,14 @@
 }
 
 body {
-    font-family: 'Helvetica',
+    font-family: 'Catamaran',
         sans-serif;
     font-weight: bold;
+    color: #23272A;
 }
 
 .container {
-    width: 70%;
+    width: 63%;
     margin: 0 auto;
 }
 
@@ -54,12 +55,13 @@ header {
     color: white;
     text-decoration: none;
     margin-left: 2.5rem;
-    font-size: 0.98rem;
+    font-size: 0.95rem;
 }
 
 .navbar>button {
     float: right;
     padding: 0.6rem 0.9rem;
+    margin-top: -3px;
 }
 
 /* buttons */
@@ -67,7 +69,8 @@ button {
     background-color: white;
     border: none;
     border-radius: 5rem;
-    color: #23272A;
+    font-family: 'Catamaran',
+        sans-serif;
     font-weight: bold;
 }
 
@@ -86,7 +89,7 @@ button:hover {
 }
 
 .hero_image>.container {
-    width: 34%;
+    width: 37%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -94,18 +97,19 @@ button:hover {
 }
 
 .hero_image h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .hero_image p {
+    font-size: 1.2rem;
     padding: 2.5rem 0 1.5rem 0;
     line-height: 1.7rem;
 }
 
 .hero_image button {
     margin-left: 1rem;
-    font-size: .9rem;
-    padding: 1rem 1.3rem;
+    font-size: 1rem;
+    padding: 1rem 1.7rem;
 }
 
 .hero_image>.container>button:last-child {
@@ -113,6 +117,37 @@ button:hover {
     color: white;
 }
 
-.hero_image span {
-    font-size: 2rem;
+.hero_image i {
+    font-size: 1rem;
+    padding-right: .5rem;
+}
+
+/* prima riga */
+/* .row {
+    width: 100%; 
+}
+.row .container {
+    
+}*/
+
+.row .col_image {
+    width: 71%;
+    float: left;
+}
+
+.row .col_text {
+    width: 29%;
+    float: left;
+    /* padding: 1rem; */
+}
+
+.col_text>h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    padding: 2rem 0;
+}
+
+.col_text>p {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
 }
