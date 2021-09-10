@@ -123,12 +123,9 @@ button:hover {
 }
 
 /* prima riga */
-/* .row {
-    width: 100%; 
+.row {
+    padding: 130px 0;
 }
-.row .container {
-    
-}*/
 
 .row .col_image {
     width: 71%;
