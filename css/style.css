@@ -148,3 +148,8 @@ button:hover {
     font-size: 1.3rem;
     line-height: 1.7rem;
 }
+
+.item2 {
+    margin-left: auto;
+    display: block;
+}
