@@ -71,7 +71,9 @@ button {
     border-radius: 5rem;
     font-family: 'Catamaran',
         sans-serif;
+    font-size: 1rem;
     font-weight: bold;
+    padding: 0.8rem 1.7rem;
 }
 
 button:hover {
@@ -106,14 +108,11 @@ button:hover {
     line-height: 1.7rem;
 }
 
-.hero_image button {
-    margin-left: 1rem;
-    font-size: 1rem;
-    padding: 1rem 1.7rem;
-}
+.hero_image button {}
 
 .hero_image>.container>button:last-child {
     background-color: #23272A;
+    margin-left: 1rem;
     color: white;
 }
 
@@ -165,4 +164,19 @@ button:hover {
 
 .last>img {
     width: 100%;
+}
+
+.last>h3 {
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 48%;
+    margin: auto;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.last>button {
+    background-color: #8EA1E1;
+    color: white;
 }
