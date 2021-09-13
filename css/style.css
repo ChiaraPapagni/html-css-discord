@@ -13,7 +13,6 @@
 body {
     font-family: 'Catamaran',
         sans-serif;
-    font-weight: bold;
     color: #23272A;
 }
 
@@ -58,10 +57,8 @@ header {
     font-size: 0.95rem;
 }
 
-.navbar>button {
-    float: right;
-    padding: 0.6rem 0.9rem;
-    margin-top: -3px;
+.navbar a:hover {
+    text-decoration: underline;
 }
 
 /* buttons */
@@ -78,6 +75,29 @@ button {
 
 button:hover {
     cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.3);
+}
+
+.navbar>button,
+#site_footer button {
+    float: right;
+    padding: 0.3rem 0.7rem;
+}
+
+#site_footer button {
+    margin-top: -5px;
+}
+
+.hero_image>.container>button:last-child {
+    background-color: #23272A;
+    margin-left: 1rem;
+    color: white;
+}
+
+.last>button {
+    background-color: #8EA1E1;
+    color: white;
 }
 
 /* hero-image */
@@ -106,14 +126,6 @@ button:hover {
     font-size: 1.2rem;
     padding: 2.5rem 0 1.5rem 0;
     line-height: 1.7rem;
-}
-
-.hero_image button {}
-
-.hero_image>.container>button:last-child {
-    background-color: #23272A;
-    margin-left: 1rem;
-    color: white;
 }
 
 .hero_image i {
@@ -176,20 +188,18 @@ button:hover {
     padding: 2rem 0;
 }
 
-.last>button {
-    background-color: #8EA1E1;
-    color: white;
-}
-
 /* footer */
 #site_footer {
     background-color: #23272A;
     color: white;
 }
 
-#site_footer>.container {
+#site_footer>.container:first-child {
     border-bottom: 1px solid #8EA1E1;
-    padding: 1.5rem 0;
+}
+
+#site_footer>.container {
+    padding: 2rem 0;
 }
 
 #site_footer .col:first-child {
@@ -199,7 +209,14 @@ button:hover {
 #site_footer .col {
     float: left;
     width: 16.66%;
-    padding-top: 100px;
+    padding-top: 80px;
+}
+
+#site_footer h2 {
+    color: #8EA1E1;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    padding-right: 6rem;
 }
 
 #site_footer ul>li {
@@ -210,4 +227,54 @@ button:hover {
 #site_footer ul>li:first-child {
     color: #8EA1E1;
     font-size: 1.1rem;
+}
+
+#site_footer ul>li a {
+    color: white;
+    text-decoration: none;
+}
+
+#site_footer a:hover {
+    text-decoration: underline;
+}
+
+.col>.lang {
+    padding: 2rem 0;
+}
+
+.col>.lang>img {
+    float: left;
+    width: 1.7rem;
+    padding-right: 3px;
+}
+
+.col>.lang>p {
+    font-size: 0.9rem;
+    float: left;
+}
+
+#site_footer .lang i {
+    font-size: 0.7rem;
+}
+
+#site_footer .lang:hover {
+    cursor: pointer;
+}
+
+#site_footer .social i {
+    font-size: 1.3rem;
+    margin-right: 1.5rem;
+}
+
+#site_footer .social i:hover {
+    cursor: pointer;
+}
+
+#site_footer img {
+    float: left;
+}
+
+/* wave */
+.row:nth-of-type(2n+1) {
+    background-color: #f6f6f6;
 }
